@@ -1,7 +1,7 @@
 import sqlite3 as sq
 from typing import Dict, List
 
-with sq.connect('base.sqlite3') as conn:
+with sq.connect('database.sqlite3') as conn:
     cursor = conn.cursor()
 
 
